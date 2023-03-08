@@ -37,8 +37,9 @@ vim.opt.listchars = {
     eol = '¬',
     tab = '>·',
     trail = '␣',
+    space = '·',
+    nbsp = '%',
     extends = '»',
     precedes = '«',
-    nbsp = '%',
 }
 vim.opt.list = true
