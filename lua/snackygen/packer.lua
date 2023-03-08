@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
     use("tpope/vim-fugitive")
     use('tpope/vim-surround')
     use('tpope/vim-commentary')
+    use('jiangmiao/auto-pairs')
 
     use {
         'VonHeikemen/lsp-zero.nvim',
