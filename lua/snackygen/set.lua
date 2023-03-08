@@ -20,6 +20,9 @@ vim.opt.undofile = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
@@ -29,3 +32,13 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "120"
+
+vim.opt.listchars = {
+    eol = '¬',
+    tab = '>·',
+    trail = '␣',
+    extends = '»',
+    precedes = '«',
+    nbsp = '%',
+}
+vim.opt.list = true
