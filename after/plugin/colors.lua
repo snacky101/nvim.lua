@@ -14,5 +14,10 @@ function ColorNonText()
     vim.api.nvim_set_hl(0, "NonText", { fg = "darkgreen" })
 end
 
+function ColorColorColumn()
+    vim.api.nvim_set_hl(0, "ColorColumn", { bg = "gray" })
+end
+
 ColorMyPencils()
 ColorNonText()
+ColorColorColumn()
