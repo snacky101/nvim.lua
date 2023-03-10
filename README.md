@@ -9,26 +9,26 @@
 
 ## Usage
 
-### Install Packer (package manager)
+### 01. Install Packer (package manager)
 
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-### Clone
+### 02. Clone
 
 ```bash
 git clone https://github.com/snacky101/nvim.lua.git ~/.config/nvim
 ```
 
-### Diable after package
+### 03. Diable after package
 
 ```bash
 mv ~/.config/nvim/after ~/.config/nvim/after.bak
 ```
 
-### Install plugins
+### 04. Install plugins
 
 ```bash
 vim ~/.config/nvim/lua/snackygen/packer.lua
@@ -39,7 +39,7 @@ vim ~/.config/nvim/lua/snackygen/packer.lua
 :PackerSync
 ```
 
-### Apply after package
+### 05. Apply after package
 
 ```bash
 mv ~/.config/nvim/after.bak ~/.config/nvim/after
