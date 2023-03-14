@@ -37,6 +37,8 @@ vim ~/.config/nvim/lua/snackygen/packer.lua
 # vim command
 :so 
 :PackerSync
+
+# if you get an error during PackerSync, please retry it
 ```
 
 ### 05. Apply after package
